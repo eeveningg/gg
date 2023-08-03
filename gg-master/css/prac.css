@@ -1,0 +1,126 @@
+* {
+    margin: 0; 
+    padding: 0;
+    text-decoration: none;
+    box-sizing:border-box;
+    color:rgb(0, 0, 0);
+    list-style: none;
+    letter-spacing: 120%;
+    line-height: 200%;
+}
+header{
+    background-color: rgb(211, 245, 255);
+    border-bottom:2px solid rgb(119, 119, 119);
+    
+}
+body{
+    background-color: rgba(255, 255, 255, 0.445);
+}
+.logo{
+    border-radius : 70%;
+    width:100px;
+    height:100px;
+    text-align: center;
+    margin:20px;
+}
+.wrapper{
+    width: 1280px;
+    margin:0 auto;
+}
+.menu{
+    position: absolute;
+    top:50px;
+    left:800px;
+}
+.main_menu{
+    width:800px;
+    height:40px;
+    background-color: rgba(199, 199, 199, 0);
+}
+.main_menu a{
+    display:block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: large;
+}
+.main_menu a:hover{
+    background-color: rgb(118, 118, 118);
+    color: rgb(0, 0, 0);
+}
+.main_menu ul li{
+    width: 200px;
+    float: left;
+}
+.sub_menu{
+    background-color: rgba(199, 199, 199, 0);
+    width: 800px;
+    display:none;
+}
+.sub_menu a{
+    display:block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.sub_menu a:hover{
+    background-color: rgb(118, 118, 118);
+    color:rgb(0, 0, 0);
+}
+.sub_menu ul li ul{
+    width: 200px;
+    float: left;
+}
+.sub_menu ul li ul li{
+    background-color: rgba(0, 0, 0, 0)
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#left_bar{
+    width:250px;
+    height:20000px;
+    float:left;
+    background-color: rgb(255, 255, 255);
+    border-right:2px solid rgb(119, 119, 119);
+}
+#right_bar{
+    width:250px;
+    height:20000px;
+    float:right;
+    background-color: rgb(255, 255, 255);
+    border-left:2px solid rgb(119, 119, 119);
+}
+#contents{
+    width: 1280px;
+    height: 800px;
+    float:left;
+    margin : 20px;
+}
+#contents>img{
+    border-radius: 10%;
+}
+#contents p a{
+    text-decoration:underline;
+    color:blue;
+    font-weight: bold;
+}
+
